@@ -1,6 +1,5 @@
-package com.greg.exercisequeues.implementation;
+package com.greg.exercisequeues;
 
-import com.greg.exercisequeues.common.QueueException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,9 +9,8 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FIFOQueueImplTest {
+class FIFOQueueImplTest {
 
     private FIFOQueueImpl fifoQueue = new FIFOQueueImpl();
     private static final String path = "src/test/resources/testData.txt";

@@ -1,6 +1,5 @@
-package com.greg.exercisequeues.implementation;
+package com.greg.exercisequeues;
 
-import com.greg.exercisequeues.common.QueueException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,8 +10,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
-public class LIFOQueueImplTest {
+class LIFOQueueImplTest {
 
     private LIFOQueueImpl lifoQueue = new LIFOQueueImpl();
     private static final String path = "src/test/resources/testData.txt";
